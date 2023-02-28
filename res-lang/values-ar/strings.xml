@@ -1,0 +1,943 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+	<string name="translation_author">Mohamed Samir</string>
+	<string name="about_credits">تم برمجتة استنادًا إلى Open Camera بواسطة Mark Harman وتم إصداره بموجب GPL v3 أو أحدث</string>
+	<string name="intro_text">المس للتركيز ، واضغط على زر الكاميرا الأزرق لالتقاط الصور. لمزيد من التعليمات ، انقر فوق التعليمات عبر الإنترنت من الإعدادات. سياسة الخصوصية: لا يرسل هذا التطبيق بيانات شخصية إلى أطراف ثالثة. يتم استخدام الوصول إلى الكاميرا والميكروفون والموقع فقط لحفظ الصور ومقاطع الفيديو الخاصة بك.</string>
+	<string name="intro_ok">حسنًا (لن تظهر هذه الرسالة مرة أخرى)</string>
+<!-- Translate me
+	<string name="charset">ISO-8859-1</string>
+-->
+	<string name="answer_yes">نعم</string>
+	<string name="answer_no">لا</string>
+
+	<string name="on">فتح</string>
+	<string name="off">قفل</string>
+	<string name="auto">تلقائي</string>
+	<string name="default_str">إفتراضي</string>
+	<string name="none">لا شيء</string>
+	<string name="unlimited">غير محدود</string>
+	<string name="device_default">إفتراضي الهاتف</string>
+	<string name="if_necessary">اذا كان ضروري</string>
+	<string name="sorry">آسف</string>
+	
+	<string name="white">أبيض</string>
+	<string name="light_gray">رمادي فاتح</string>
+	<string name="gray">رمادي</string>
+	<string name="dark_gray">رمادي داكن</string>
+	<string name="black">أسود</string>
+	<string name="yellow">أصفر</string>
+	<string name="red">أحمر</string>
+	<string name="green">أخضر</string>
+	<string name="blue">أزرق</string>
+
+	<string name="choose_save_location">اختر موقع الحفظ:</string>
+	<string name="clear_folder_history">مسح مجلد المحفوظات</string>
+	<string name="clear_folder_history_question">مسح مجلد المحفوظات ؟</string>
+	<string name="choose_another_folder">اختيار مجلد آخر</string>
+	<string name="changed_save_location">تم تغيير موقع الحفظ إلى:</string>
+	<string name="parent_folder">المجلد الأصل</string>
+	<string name="new_folder">مجلد جديد</string>
+	<string name="cant_write_folder">لا يمكن الكتابة إلى هذا المجلد</string>
+	<string name="cant_access_folder">لا يمكن الوصول إلى هذا المجلد</string>
+	<string name="enter_new_folder">أدخل اسم المجلد الجديد</string>
+	<string name="failed_create_folder">فشل في إنشاء المجلد</string>
+	<string name="folder_exists">المجلد موجود بالفعل</string>
+	<string name="saf_select_save_location">حدد مكان الحفظ</string>
+	<string name="saf_cancelled">تم إلغاء الوصول الي إطار التخزين </string>
+	<string name="saf_permission_failed">لا يمكن الحفظ في هذا المجلد</string>
+
+	<string name="angle">الزاوية</string>
+	<string name="rotation">دوران</string>
+	<string name="direction">الإتجاه</string>
+	<string name="zoom">تقريب</string>
+	<string name="free_memory">حر</string>
+
+
+	<string name="iso_manual">الوضع اليدوي</string>
+	<string name="aperture">فتحة</string>
+
+	<string name="camera">الكاميرا</string>
+	<string name="photo">صورة</string>
+	<string name="video">فيديو</string>
+
+	<string name="action_popup">إعدادات النوافذ المنبثقة</string>
+	<string name="action_settings">الإعدادات</string>
+	<string name="audio_control_start">بدء الاستماع إلى الصوت</string>
+	<string name="audio_control_stop">إيقاف الاستماع إلى الصوت</string>
+	<string name="back_camera">الكاميرا الخلفية</string>
+	<string name="disable_face_detection">تعطيل اكتشاف الوجه</string>
+	<string name="enable_face_detection">تفعيل اكتشاف الوجه</string>
+	<string name="exposure">التعرض</string>
+	<string name="front_camera">الكاميرا الأمامية</string>
+	<string name="gallery">المعرض</string>
+	<string name="pause_video">وقف مؤقت لتسجيل الفيديو</string>
+	<string name="record_video">تسجيل الفيديو</string>	
+	<string name="resume_video">استئناف تسجيل الفيديو</string>
+	<string name="selfie_mode_start">بدء وضع السيلفي</string>
+	<string name="selfie_mode_stop">إيقاف وضع السيلفي</string>
+	<string name="share">مشاركة الصور</string>
+	<string name="start_video">بدء تسجيل الفيديو</string>
+	<string name="stop_timer">إيقاف الموقت</string>
+	<string name="stop_video">إبقاف تسجيل الفيديو</string>
+	<string name="switch_to_back_camera">التبديل إلى الكاميرا الخلفية</string>
+	<string name="switch_to_front_camera">التبديل إلى الكاميرا الأمامية</string>
+	<string name="switch_to_photo">التبديل إلى وضع الصورة</string>
+	<string name="switch_to_video">التبديل إلى وضع الفيديو</string>
+	<string name="take_photo">إلتقاط صورة</string>
+	<string name="take_video">آخذ الفيديو</string>
+	<string name="trash">حذف آخر صورة</string>
+	<string name="high_speed">سرعة عالية</string>
+	<string name="preference_video_capture_rate">السرعة</string>
+
+	<string name="screen_lock_message_1">مقفل</string>
+	<string name="screen_lock_message_2">السحب للفتح</string>
+	<string name="waiting_for_face">في انتظار اكتشاف الوجه ...</string>
+	<string name="audio_disabled">تم تعطيل الصوت</string>
+	<string name="audio_listener_started">يسبب ضوضاء عالية</string>
+	<string name="auto_adjustment_locked">الضبط التلقائي مغلق</string>
+	<string name="auto_adjustment_unlocked">تم إلغاء قفل الضبط التلقائي</string>
+	<string name="cancelled_burst_mode">تم إلغاء وضع الاندفاع</string>
+	<string name="cancelled_timer">تم إلغاء المؤقت</string>
+	<string name="capturing">إلتقاط…</string>
+	<string name="failed_to_reconnect_camera">فشل في إعادة الاتصال بالكاميرا</string>
+	<string name="location_not_available">الموقع الجغرافي غير متاح</string>
+	<string name="max_duration">المدة القصوى</string>
+	<string name="max_filesize">الحد الأقصى لحجم الملف</string>
+	<string name="no_gallery_app">لا يوجد تطبيق معرض متاح</string>
+	<string name="photo_deleted">تم حذف الصورة</string>
+	<string name="repeats_to_go">إعادة الذهاب</string>
+	<string name="screen_is_locked">الشاشة مقفلة اسحب الشاشة للفتح</string>
+	<string name="speech_recognizer_started">قل \"cheese\"</string>
+	<string name="started_recording_video">بدأ تسجيل الفيديو</string>
+	<string name="started_timer">بدأ الموقت</string>
+	<string name="stopped_recording_video">توقف تسجيل الفيديو</string>
+	<string name="taking_photo">التقاط الصورة</string>
+	<string name="unlocked">مفتوح</string>
+	<string name="video_max_duration">بلغ الفيديو الحد الأقصى للمدة</string>
+	<string name="video_max_filesize">وصل الفيديو إلى الحد الأقصى لحجم الملف</string>
+	<string name="video_pause">توقف الفيديو مؤقتًا</string>
+	<string name="video_resume">تم استئناف الفيديو</string>
+	<string name="backup_file_saved">تم حفظ ملف النسخ الاحتياطي بنجاح</string>
+	<string name="settings_file_saved">تم حفظ ملف الإعدادات بنجاح</string>
+
+	<string name="failed_to_open_camera_1">فشل في فتح الكاميرا.</string>
+	<string name="failed_to_open_camera_2">قد تكون الكاميرا قيد الاستخدام</string>
+	<string name="failed_to_open_camera_3">عن طريق تطبيق آخر؟</string>
+	<string name="audio_listener_failed">فشل في تنشيط الاستماع إلى الصوت</string>
+	<string name="auto_level_not_supported">عذرًا ، المستوى التلقائي غير مدعوم على هذا الجهاز</string>
+	<string name="camera_error">خطأ فادح في الكاميرا</string>
+	<string name="failed_to_auto_level">فشل في المستوى التلقائي</string>
+	<string name="failed_to_record_video">فشل تسجيل الفيديو</string>
+	<string name="failed_to_save_photo">فشل في حفظ الصورة</string>
+	<string name="failed_to_save_photo_raw">فشل في حفظ صورة RAW</string>
+	<string name="failed_to_save_video">فشل في حفظ ملف الفيديو</string>
+	<string name="failed_to_stamp">فشل في ختم المعلومات على الصورة</string>
+	<string name="failed_to_start_camera_preview">فشل في بدء معاينة الكاميرا</string>
+	<string name="failed_to_process_hdr">فشل في إنشاء صورة HDR</string>
+	<string name="failed_to_take_picture">فشل في التقاط الصورة</string>
+	<string name="not_supported">غير مدعوم على جهازك</string>
+	<string name="video_error_server_died">مات الخادم وتوقف الفيديو</string>
+	<string name="video_error_unknown">خطأ غير معروف ، توقف الفيديو</string>
+	<string name="video_may_be_corrupted">خطأ ، قد يكون ملف الفيديو تالفًا</string>
+	<string name="video_no_free_space">لا توجد مساحة خالية كافية لتسجيل الفيديو</string>
+	<string name="video_power_critical">توقف الفيديو مستوى البطارية منخفض للغاية</string>
+	<string name="focus_bracketing_range_not_defined">نطاق تصحيح التركيز غير محدد</string>
+	<string name="speech_recognizer_unavailable">أداة التعرف على الكلام غير متوفرة</string>
+	<string name="open_files_saf_exception_ghost">لم يتم العثور على ملف حوار على هذا الجهاز ، خيار الصورة الشبحية غير مدعوم</string>
+	<string name="saf_permission_failed_open_image">غير قادر على فتح هذه الصورة</string>
+	<string name="failed_to_save_file">فشل في حفظ الملف</string>
+	<string name="failed_to_read_file">فشلت قراءة الملف</string>
+	<string name="failed_to_restore_from_backup">فشل في استعادة الإعدادات من ملف النسخ الاحتياطي</string>
+	<string name="failed_to_import_settings">فشل في استيراد الإعدادات من الملف</string>
+
+	<string name="no_permission">الأذونات غير متوفرة</string>
+
+	<string name="permission_record_audio_not_available">إذن الميكروفون غير متاح</string>
+	<string name="permission_location_not_available">إذن الموقع غير متوفر</string>
+	<string name="permission_rationale_title">الإذن مطلوب</string>
+	<string name="permission_rationale_camera">مطلوب إذن الكاميرا لتمكين الكاميرا</string>
+	<string name="permission_rationale_storage">مطلوب إذن قراءة / كتابة التخزين لحفظ الصور</string>
+	<string name="permission_rationale_record_audio">مطلوب إذن الميكروفون لتسجيل صوت الفيديو</string>
+	<string name="permission_rationale_location">إذن الموقع مطلوب للترميز الجغرافي</string>
+
+	<string name="auto_level_info">يقوم المستوى التلقائي بتدوير الصور تلقائيًا بحيث تظهر مستوية. لاحظ أن هذا يعني أن الصور ستخرج بدقة أقل قليلاً (بسبب التدوير والقص المطلوبين).</string>
+<!-- Translate me 
+	<string name="raw_info">DNG files contain the full uncompressed and unprocessed information from your camera.\n\nMost gallery apps won\'t recognise DNG, instead they should be used with specialised apps like Snapseed or Lightroom.\n\nNote that various processing options such as "Stamp photos" and "Auto-level" will only apply to the JPEG images, and not the DNG images.\n\nDNG files take up a lot of space; a file explorer app may be useful for transferring or deleting them.\n\nDNG files are only saved in Standard or DRO photo modes.</string>
+-->
+	<string name="hdr_info">يعد وضع HDR مفيدًا للقطات ذات التباين الكبير في السطوع. إنه يعمل عن طريق التقاط عدة لقطات عند درجات مختلفة ، والجمع بينها لإنشاء الصورة النهائية. لاحظ أن HDR غير مناسب للمشاهد ذات الحركة السريعة ، وقد يؤدي إلى إعادة إنتاج ألوان أقل دقة. سيكون التقاط الصور في وضع HDR أبطأ.</string>
+	<string name="preference_reset_question">هل أنت متأكد أنك تريد إعادة تعيين كافة الإعدادات إلى الوضع الافتراضي؟</string>
+	<string name="preference_restore_question">هل أنت متأكد أنك تريد استعادة كافة الإعدادات من الملف؟ سيتم الكتابة فوق جميع الإعدادات الحالية!</string>
+	<string name="preference_import_question">هل أنت متأكد أنك تريد استيراد الإعدادات من الملف؟ سيتم الكتابة فوق بعض الإعدادات! إذا تم إنشاء ملف الإعدادات هذا على جهاز آخر ، فمن المستحسن إجراء نسخ احتياطي لكافة الإعدادات قبل الاستيراد.</string>
+	<string name="dont_show_again">لا تظهرها مرة أخرى</string>
+	<string name="histogram_surface_question">لا يعمل عرض الرسم البياني عند استخدام عرض السطح. هل تريد تغيير سطح المعاينة إلى عرض الملمس ؟</string>
+	<string name="overwrite_file_question">يوجد بالفعل ملف بنفس الاسم. هل تريد حقًا الكتابة فوقه؟</string>
+
+	<string name="mb_abbreviation">ميغا بايت</string>
+	<string name="gb_abbreviation">غيغابايت</string>
+	<string name="metres_abbreviation">م</string>
+	<string name="centimetres_abbreviation">سم</string>
+
+	<string name="minutes_abbreviation">م</string>
+
+
+	<string name="exposure_shutter_speed">سرعة الإلتقاط</string>
+	<string name="focus_distance">مسافة التركيز</string>
+	<string name="infinite">بلا نهاية</string>
+
+	<string name="photo_mode">وضع الصوره</string>
+	<string name="photo_mode_standard">اساسي</string>
+
+
+	<string name="photo_mode_expo_bracketing">تصحيح التعرض</string>
+	<string name="photo_mode_focus_bracketing">التركيز بين قوسين</string>
+	<string name="photo_mode_fast_burst">تتابع سريع</string>
+	<string name="photo_mode_noise_reduction">تقليل الضوضاء</string>
+
+	<string name="flash_mode">وضع الفلاش</string>
+	<string name="f_torch">شعلة</string>
+	<string name="f_red_eye">عين حمراء</string>
+	<string name="f_screen_auto">شاشة تلقائية</string>
+	<string name="f_screen_on">الشاشة مفتوحة</string>
+
+	<string name="focus_mode">وضع التركيز</string>
+	<string name="fm_auto">تلقائي</string>
+	<string name="fm_infinity">بلا نهاية</string>
+	<string name="fm_macro">دقيق</string>
+	<string name="fm_locked">مقفل</string>
+	<string name="fm_manual">يدوي</string>
+	<string name="fm_fixed">ثابت</string>
+
+	<string name="fm_continuous">مستمر</string>
+	<string name="fm_continuous_video">مستمر (فيديو)</string>
+
+	<string name="scene_mode">وضع المشهد</string>
+	<string name="sm_action">عمل</string>
+	<string name="sm_barcode">الرمز الشريطي</string>
+	<string name="sm_backlight">الإضاءة الخلفية</string>
+	<string name="sm_beach">شاطئ بحر</string>
+	<string name="sm_candlelight">ضوء شموع</string>
+	<string name="sm_fireworks">العاب ناريه</string>
+	<string name="sm_flowers">زهور</string>
+
+	<string name="sm_landscape">افقي</string>
+	<string name="sm_night">ليل</string>
+	<string name="sm_night_portrait">صورة ليلية</string>
+	<string name="sm_normal">عادي</string>
+	<string name="sm_party">حفل</string>
+	<string name="sm_portrait">صورة</string>
+	<string name="sm_snow">ثلج</string>
+	<string name="sm_sports">رياضات</string>
+	<string name="sm_steadyphoto">صورة ثابتة</string>
+	<string name="sm_sunset">غروب الشمس</string>
+	<string name="sm_theatre">مسرح</string>
+
+	<string name="white_balance">توازن اللون الأبيض</string>
+	<string name="wb_manual">يدوي</string>
+
+	<string name="wb_cloudy_daylight">غائم</string>
+	<string name="wb_daylight">ضوء النهار</string>
+	<string name="wb_fluorescent">فلوري</string>
+	<string name="wb_incandescent">ساطع</string>
+	<string name="wb_shade">ظل</string>
+	<string name="wb_twilight">الشفق</string>
+	<string name="wb_warm_fluorescent">الفلورسنت الدافئ</string>
+	<string name="wb_tungsten">مصباح التنغستن</string>
+
+	<string name="color_effect">التأثير اللوني</string>
+	<string name="ce_aqua">أكوا</string>
+	<string name="ce_antique">عتيق</string>
+	<string name="ce_blackboard">سبورة سوداء</string>
+	<string name="ce_cold">بارد</string>
+	<string name="ce_mono">أحادي اللون</string>
+	<string name="ce_negative">سلبي</string>
+	<string name="ce_none">لا شيء</string>
+	<string name="ce_posterize">تتابع</string>
+	<string name="ce_sepia">بني داكن</string>
+	<string name="ce_sepiablue">أزرق داكن</string>
+	<string name="ce_solarize">شمسي</string>
+	<string name="ce_whiteboard">سبورة بيضاء</string>
+
+	<string name="preference_category_camera_controls">ضوابط الكاميرا</string>
+	<string name="preference_face_detection">الكشف عن الوجه</string>
+	<string name="preference_face_detection_summary">استخدم اكتشاف الوجه بدلاً من مناطق التركيز</string>
+	<string name="preference_touch_capture">اللمس للإلتقاط</string>
+	<string name="preference_touch_capture_summary">التقط صورة فقط عن طريق لمس المعاينة</string>
+
+	<string name="preference_category_main_settings">الإعدادات الرئيسية</string>
+
+	<string name="preference_screen_selfie_mode">وضع السيلفي</string>
+	<string name="preference_selfie_mode_summary">تفعيل وضع السيلفي</string>
+	<string name="preference_timer">الموقت</string>
+	<string name="preference_burst_mode">التتابع</string>
+	<string name="burst_unlimited">غير محدود</string>
+	<string name="preference_burst_interval">الفاصل الزمني للتتابع</string>
+	<string name="no_delay">بدون تأخير</string>
+	<string name="preference_burst_low_brightness">ضبط أدني سطوع في وضع التتابع</string>
+	<string name="preference_burst_low_brightness_summary">اضبط الحد الأدنى من سطوع الشاشة عندما يكون وضع التتابع نشطًا</string>
+	<string name="preference_burst_lock">قفل الشاشة</string>
+	<string name="preference_burst_lock_summary">قفل الشاشة عند تشغيل المؤقت أو وضع التتابع</string>
+	<string name="preference_wait_face">انتظار الوجه</string>
+	<string name="preference_wait_face_summary">ابدأ الالتقاط أو المؤقت بعد اكتشاف الوجه. لا تنس تمكين اكتشاف الوجه قبل استخدام هذا الوضع.</string>
+	<string name="preference_audio_control">التحكم بواسطة الصوت</string>
+	<string name="preference_audio_control_type">نوع التحكم بواسطة الصوت</string>
+	<string name="vc_loud_noise">عمل ضوضاء</string>
+	<string name="vc_cheese">الأمر صوتي: \"cheese\"</string>
+	<string name="preference_audio_noise_control_sensitivity">حساسية التحكم بواسطة الصوت</string>
+	<string name="preference_audio_noise_control_sensitivity_summary">%s\n\nحساسية مستوى الضوضاء لخيار الصوت (عمل ضوضاء)</string>
+	<string name="vc_high_sensitivity">+3 (حساسية عالية)</string>
+	<string name="vc_default_sensitivity">0 (افتراضي)</string>
+	<string name="vc_low_sensitivity">-2 (حساسية منخفضة)</string>
+
+	<string name="preference_screen_sounds">الأصوات</string>
+	<string name="preference_shutter_sound">صوت الإلتقاط</string>
+	<string name="preference_shutter_sound_summary">%s\n\nهو صوت إلتقاط الصورة</string>
+	<string name="shutter_force_off">إهتزاز</string>
+	<string name="shutter_android_2">أندرويد 2</string>
+	<string name="shutter_android_4">أندرويد 4</string>
+	<string name="shutter_1">صوت إلتقاط 1 (قصير)</string>
+	<string name="shutter_2">صوت إلتقاط 2 (قصير)</string>
+	<string name="shutter_3">صوت إلتقاط 3 (طويل)</string>
+	<string name="shutter_4">صوت إلتقاط 4 (طويل)</string>
+	<string name="shutter_unlock">صوت فتح القفل</string>
+	<string name="preference_video_sound">بدء الفيديو / إيقاف الصوت</string>
+	<string name="preference_timer_beep">صفارة المؤقت</string>
+	<string name="preference_timer_beep_summary">صفير عندما يقوم المؤقت بالعد التنازلي أو لتأخير وضع التتابع</string>
+	<string name="preference_timer_speak">صوت العد التنازلي للمؤقت</string>
+	<string name="preference_timer_speak_summary">نطق العد التنازلي للمؤقت أو تأخير وضع التتابع (من 60 ثانية)</string>
+	<string name="preference_timer_start_sound">بدء المؤقت/ إيقاف الصوت</string>
+	<string name="preference_timer_start_sound_summary">إذا تم تعطيل صفارة المؤقت ، يتم تشغيل صوت عند بدء تشغيل المؤقت أو إيقافه</string>
+	<string name="preference_face_detection_sound">صوت اكتشاف الوجه</string>
+	<string name="preference_face_detection_sound_summary">تشغيل الصوت عند اكتشاف الوجه</string>
+	<string name="preference_sound_volume">حجم الأصوات</string>
+	<string name="sv_max">أقصي حجم</string>
+	<string name="sv_high">مرتفع</string>
+	<string name="sv_medium">متوسط</string>
+	<string name="sv_low">منخفض</string>
+	<string name="sv_min">الأدني</string>
+	<string name="preference_audio_stream">مسار صوت الإلتقاط</string>
+	<string name="preference_audio_stream_summary">%s\n\nمسار الصوت لتشغيل أصوات الكاميرا </string>
+	<string name="ss_system">النظام</string>
+	<string name="ss_notification">الإشعارات</string>
+	<string name="ss_music">الموسيقى</string>
+
+	<string name="preference_screen_gui">تكوين شاشة واجهة المستخدم الرسومية</string>
+	<string name="preference_gui_type">نوع واجهة المستخدم الرسومية</string>
+	<string name="preference_gui_type_portrait">نوع واجهة المستخدم الرسومية في الإتجاه العمودي</string>
+	<string name="gui_as_in_landscape">كما هو الحال في الوضع الأفقي</string>
+	<string name="gui_phone">هاتف</string>
+	<string name="gui_phone_2">هاتف 2</string>
+	<string name="gui_tablet">تابلت</string>
+	<string name="gui_universal">عالمي</string>
+	<string name="gui_classic">كلاسيكي</string>
+	<string name="preference_ctrl_panel_margin">هامش الأزرار</string>
+	<string name="preference_ctrl_panel_margin_summary">%s\n\nهي المسافة مابين ازرار لوحة التحكم و مفتاح الإلتقاط \"أندوريد 2\", \"التابلت\"و \"عالمي\" وضع واجهة المستخدم الرسومية</string>
+	<string name="preference_ui_left_handed">واجهة المستخدم يسرى</string>
+	<string name="preference_ui_left_handed_summary">واجهة لمستخدمين اليد اليسري</string>
+	<string name="preference_system_ui_orientation">اتجاه واجهة مستخدم النظام</string>
+
+
+	<string name="preference_screen_ctrl_panel">لوحة التحكم</string>
+	<string name="preference_screen_ctrl_panel_buttons">أزرار لوحة التحكم</string>
+	<string name="preference_ctrl_panel_switch_camera">تبديل الكاميرا</string>
+	<string name="exposure_compensation">تعويض التعرض</string>
+	<string name="auto_adjustment_lock">قفل الضبط التلقائي</string>
+	<string name="expo_metering_area">منطقة قياس التعرض</string>
+
+	<string name="preference_screen_mode_panel">لوحة الوضع</string>
+	<string name="preference_screen_mode_panel_buttons">أزرار لوحة الوضع</string>
+	
+	<string name="preference_screen_sliders">شرائط التمرير المنزلقة</string>
+	<string name="preference_sliders_location">موضع شرائط التمرير المنزلقة</string>
+	<string name="sl_on_widest_side">على الجانب الأوسع</string>
+	<string name="sl_near_shutter_button">بالقرب من زر الإلتقاط</string>
+	<string name="preference_sliders_size">حجم شرائط التمرير المنزلقة</string>
+	<string name="preference_sliders_gap">المسافة بين أشرطة التمرير المنزلقة</string>
+	<string name="preference_sliders_auto_switch">التبديل التلقائي</string>
+	<string name="preference_sliders_auto_switch_summary">تبديل رؤية أشرطة التمرير المنزلقة تلقائيًا عند تغيير وضع القياس</string>
+	<string name="preference_show_exposure_buttons">أزرار التعرض</string>
+	<string name="preference_show_exposure_buttons_summary">إظهار أزرار تعويض التعريض</string>
+	<string name="preference_show_zoom_controls">إظهار  لوحة \" - / + \" للتحكم في التقريب</string>
+	<string name="preference_show_zoom_controls_summary">أظهر الأزرار - / + للتحكم في التقريب / الإبعاد</string>
+	<string name="preference_show_zoom_slider_controls">إظهار شريط تمرير منزلق للتحكم في التقريب</string>
+	<string name="preference_show_zoom_slider_controls_summary">اعرض شريط تمرير للتحكم في التقريب / الإبعاد</string>
+	<string name="preference_iso_steps">خطوات ISO</string>
+	<string name="preference_iso_steps_summary">استخدم خطوة ضبط ISO</string>
+	<string name="preference_exposure_steps">خطوات وقت التعرض</string>
+	<string name="preference_exposure_steps_summary">استخدم خطوة ضبط وقت التعرض</string>
+	<string name="preference_white_balance_steps">خطوات توازن اللون الأبيض</string>
+	<string name="preference_white_balance_steps_summary">استخدم ضبط توازن اللون الأبيض</string>
+
+	<string name="preference_screen_popup">القائمة المنبثقة</string>
+	<string name="preference_font_size">درجة حجم الخط</string>
+	<string name="fs_small">صغيرة</string>
+	<string name="fs_normal">عادي</string>
+	<string name="fs_large">كبيرة</string>
+	<string name="fs_xlarge">كبيره جدا</string>
+	<string name="preference_popup_size">حجم القائمة المنبثقة</string>
+	<string name="preference_popup_color">اللون</string>
+	<string name="black">أسود</string>
+	<string name="dark_gray">رمادي داكن</string>
+	<string name="dark_blue">أزرق غامق</string>
+	<string name="light_gray">رمادي فاتح</string>
+	<string name="preference_popup_expanded_lists">القوائم الموسعة</string>
+	<string name="preference_category_popup_elements">العناصر</string>
+	<string name="preference_category_popup_elements_summary">في هذا القسم ، يمكنك تحديد العناصر التي يتم عرضها في القائمة المنبثقة الرئيسية.</string>
+	<string name="preference_popup_modes">الأوضاع</string>
+	<string name="preference_popup_modes_summary">في هذا القسم ، يمكنك تعطيل الأوضاع غير المستخدمة أو المعطلة. يتم حفظ الإعدادات بشكل منفصل لكل كاميرا.</string>
+	<string name="preference_photo_resolutions">دقة الصورة</string>
+	<string name="preference_photo_resolutions_summary">في هذا القسم ، يمكنك تعطيل دقة الصور غير المستخدمة أو المعطلة. يتم حفظ الإعدادات بشكل منفصل لكل كاميرا.</string>
+	<string name="preference_video_qualities">خصائص الفيديو</string>
+	<string name="preference_video_qualities_summary">في هذا القسم ، يمكنك تعطيل خصائص الفيديو غير المستخدمة أو المعطلة. يتم حفظ الإعدادات بشكل منفصل لكل كاميرا.</string>
+	<string name="preference_resolution">دقة الكاميرا</string>
+	<string name="grid">الشبكة</string>
+
+	<string name="preference_screen_shutter_button">زر الإلتقاط</string>
+	<string name="preference_show_take_photo">إظهار إيقونة التقاط الصورة</string>
+	<string name="preference_show_take_photo_summary">أظهر رمز التقاط الصور وتسجيل مقاطع الفيديو. مفيد إذا كان جهازك يحتوي على زر مصراع للأجهزة وتفضل استخدامه.</string>
+	<string name="preference_shutter_button_style">نمط زر الإلتقاط</string>
+	<string name="preference_shutter_button_size">حجم زر الإلتقاط</string>
+
+	<string name="preference_immersive_mode">وضع الغمر</string>
+	<string name="preference_immersive_mode_summary">%s\n\nخيارات لسلوك \"وضع الغنر\"</string>
+	<string name="im_fullscreen">وضع ملء الشاشة</string>
+	<string name="im_sticky">لزج</string>
+	<string name="im_overlay">تراكب</string>
+	<string name="im_hide_nav_buttons">إخفاء أزرار التنقل الافتراضية التي تظهر على الشاشة فقط</string>
+	<string name="im_hide_gui">اخفاء واجهة المستخدم الرسومية</string>
+	<string name="im_hide_everything">إخفاء كل شيء</string>
+	<string name="preference_show_toasts">إظهار رسائل \"منبثقة\"</string>
+	<string name="preference_show_toasts_summary">ما إذا كان سيتم عرض رسائل \"المعلومات\" المنبثقة</string>
+	<string name="preference_thumbnail_animation">إظهار الرسوم المتحركة المصغرة</string>
+	<string name="preference_thumbnail_animation_summary">عرض الرسوم المتحركة المصغرة المتحركة عند التقاط صورة</string>
+	<string name="preference_take_photo_border">إظهار الحدود عند التقاط الصورة</string>
+	<string name="preference_take_photo_border_summary">عرض حدًا على الشاشة للإشارة إلى التقاط صورة</string>
+	<string name="preference_gui_orientation">اتجاه واجهة المستخدم الرسومية</string>
+
+	<string name="preference_keep_display_on">استمرار في العرض</string>
+	<string name="preference_keep_display_on_summary">في حالة التمكين ، لن يتم إيقاف تشغيل الشاشة أثناء تنشيط واجهة مستخدم التطبيق</string>
+	<string name="preference_max_brightness">فرض أقصى سطوع للإضائة</string>
+	<string name="preference_max_brightness_summary">فرض عرض الشاشة بأقصى سطوع ، بدلاً من وضع السطوع الافتراضي للجهاز</string>
+
+	<string name="preference_screen_preview">المعاينة</string>
+	<string name="preference_preview_max_size">أقصى حجم للمعاينة</string>
+	<string name="preference_preview_max_size_summary">أقصى حجم للمعاينة</string>
+	<string name="preference_preview_resolution">دقة المعاينة</string>
+	<string name="preference_preview_resolution_summary">%s\n\nدقة المعاينة. إذا تم تغيير هذا الخيار ، فسيتم تجاهل الخيار السابق. يتم حفظ هذا الإعداد بشكل منفصل لكل كاميرا ووضع صورة / فيديو.</string>
+	<string name="match_target_resolution">مطابق لدقة الهدف</string>
+	<string name="preference_preview_location">معاينة الموقع</string>
+
+	<string name="left_gap_for_buttons">اليسار ، فجوة للأزرار</string>
+	<string name="preference_rotate_preview">تدوير المعاينة</string>
+	<string name="preference_rotate_preview_summary">%s\n\nخيار لتدوير المعاينة (لن يؤثر على الصور / مقاطع الفيديو الناتجة)</string>
+	<string name="dont_rotate">عدم تدوير</string>
+	<string name="preference_preview_max_expo">أقصى تعرض</string>
+	<string name="preference_preview_max_expo_summary">%s\n\nأقصى تعرض للمعاينة في الوضع اليدوي (لن يؤثر على الصور / مقاطع الفيديو الناتجة)</string>
+	<string name="preference_zoom_when_focusing">تقريب عند التركيز</string>
+	<string name="preference_zoom_when_focusing_summary">زيادة مركز المعاينة عند ضبط التركيز اليدوي</string>
+	<string name="preference_ghost_image">الصورة الشبحية</string>
+	<string name="preference_ghost_image_source">مصدر الصورة</string>
+	<string name="gi_last_photo">الصورة الأخيرة</string>
+	<string name="gi_file">إختيار ملف الصورة ...</string>
+	<string name="preference_ghost_image_alpha">صورة ألفا</string>
+	<string name="preference_preview_surface">سطح المعاينة</string>
+	<string name="preference_preview_surface_summary">%s\n\nسطح لعرض المعاينة. قم بتبديل هذا الخيار فقط إذا كنت تعرف ما تفعله</string>
+
+	<string name="preference_screen_osd">الإشارة</string>
+	<string name="preference_screen_main_indication">المؤشر الرئيسي</string>
+	<string name="preference_screen_lines">الخطوط</string>
+	<string name="preference_show_zoom">عرض التقريب</string>
+	<string name="preference_show_zoom_summary">عرض مستوى تقريب الكاميرا الحالي على الشاشة (عند التقريب)</string>
+	<string name="preference_show_iso">عرض ISO</string>
+	<string name="preference_show_iso_summary">عرض مستوى ISO الحالي</string>
+	<string name="preference_show_focus_distance">إظهار مسافة التركيز</string>
+	<string name="preference_show_focus_distance_summary">عرض مسافة التركيز الحالية</string>
+	<string name="preference_show_focus_range">إظهار نطاق التركيز</string>
+	<string name="preference_show_focus_range_summary">عرض عمق المجال الحالي</string>
+	<string name="preference_show_white_balance">إظهار توازن اللون الأبيض</string>
+	<string name="preference_show_white_balance_summary">اعرض درجة حرارة توازن اللون الأبيض الحالية</string>
+	<string name="preference_show_white_balance_xy">إظهار النقطة البيضاء</string>
+	<string name="preference_show_white_balance_xy_summary">عرض إحداثيات النقطة البيضاء</string>
+	<string name="preference_free_memory">إظهار الذاكرة الخالية</string>
+	<string name="preference_free_memory_summary">عرض مساحة تخزين الجهاز المتبقية على الشاشة</string>
+	<string name="preference_show_angle">إظهار الزاوية</string>
+	<string name="preference_show_angle_summary">عرض زاوية اتجاه الجهاز الحالي على الشاشة</string>
+	<string name="preference_show_angle_line">إظهار خط الزاوية</string>
+	<string name="preference_show_angle_line_summary">عرض خط المستوى الأفقي</string>
+	<string name="preference_angle_highlight_color">لون تمييز الزاوية / الارتفاع</string>
+	<string name="preference_angle_highlight_color_summary">%s\n\nتمييز اللون عندما تكون الكاميرا مستوية في زاوية مناسبة تقريبية للتصوير</string>
+	<string name="preference_show_pitch_lines">إظهار خطوط المضمار</string>
+	<string name="preference_show_pitch_lines_summary">عرض خطوط الميل الأفقية</string>
+	<string name="preference_show_geo_direction">إظهار اتجاه البوصلة</string>
+	<string name="preference_show_geo_direction_summary">عرض اتجاه بوصلة الجهاز على الشاشة</string>
+	<string name="preference_show_geo_direction_lines">إظهار خطوط اتجاه البوصلة</string>
+	<string name="preference_show_geo_direction_lines_summary">عرض خطوط اتجاه البوصلة</string>
+	<string name="preference_show_time">عرض الوقت</string>
+	<string name="preference_show_time_summary">عرض الوقت الحالي على الشاشة</string>
+	<string name="preference_show_battery">عرض البطارية</string>
+	<string name="preference_show_battery_summary">عرض مستوى البطارية الحالي على الشاشة</string>
+	<string name="preference_show_video_max_amp">إظهار مقياس مستوى الصوت</string>
+	<string name="preference_show_video_max_amp_summary">ما إذا كان سيتم إظهار مستوى الصوت على الشاشة عند تسجيل الفيديو</string>
+	<string name="preference_alt_indication">دلالة بديلة</string>
+	<string name="preference_alt_indication_summary">التركيز البديل ومؤشر منطقة القياس</string>
+	<string name="preference_grid">عرض الشبكة</string>
+	<string name="g_phi_3x3">تقاطع ثنائي 3x3</string>
+	<string name="g_crosshair">تقاطع</string>
+	<string name="g_golden_1">حلزون (1)</string>
+	<string name="g_golden_2">حلزون (2)</string>
+	<string name="g_golden_3">حلزون (3)</string>
+	<string name="g_golden_4">حلزون (4)</string>
+	<string name="g_triangle_1">مثلث (1)</string>
+	<string name="g_triangle_2">مثلث (2)</string>
+	<string name="g_diagonals">اقطار متداخلة</string>
+	<string name="preference_grid_color">لون الشبكة</string>
+	<string name="preference_grid_alpha">شبكة ألفا</string>
+<!-- Translate me
+	<string name="preference_crop_border">Show photo/video border</string>
+	<string name="preference_crop_border_summary">Display crop borders of photos and videos if their size or aspect ratio does not match the preview. The size and position of the grids will also be adjusted to the size of the photo or video.</string>
+-->
+	<string name="preference_crop_guide">عرض دليل الإقتصاص</string>
+<!-- Translate me
+	<string name="preference_crop_guide_summary">%s\n\nA crop guide displays a rectangle showing what the specified aspect ratio looks like - useful if you plan to crop the video afterwards to a different aspect ratio. Requires video mode.</string>
+-->
+	<string name="preference_crop_guide_color">لون دليل الإقتصاص</string>
+<!-- Translate me
+	<string name="preference_darken_outside_border">Darken outside the border</string>
+	<string name="preference_darken_outside_border_summary">Darken the area outside the crop border</string>
+-->
+	<string name="preference_screen_histogram">الرسم البياني</string>
+	<string name="preference_show_histogram">إظهار الرسم البياني</string>
+	<string name="preference_histogram_mode">وضع الرسم البياني</string>
+	<string name="ht_brightness">سطوع</string>
+	<string name="ht_maximum">الحد الأقصى</string>
+	<string name="ht_colors">الألوان</string>
+	<string name="preference_histogram_size">مساحة الرسم البياني</string>
+	<string name="preference_histogram_frequency">معدل التحديث</string>
+	<string name="preference_histogram_frequency_summary">%s\n\nتكرار تحديث الرسم البياني. تؤدي القيمة الأعلى إلى زيادة تحميل وحدة المعالجة المركزية.</string>
+	<string name="preference_histogram_accuracy">الصحة</string>
+	<string name="preference_histogram_accuracy_summary">%s\n\nدقة الرسم البياني. تؤدي القيمة الأعلى إلى زيادة تحميل وحدة المعالجة المركزية.</string>
+	<string name="preference_color_probe">مسبار اللون</string>
+	<string name="preference_color_probe_size">درجة حجم مسبار اللون</string>
+	<string name="preference_osd_frequency">معدل التحديث</string>
+	<string name="preference_osd_frequency_summary">تردد تحديث OSD. ستؤدي زيادة هذه القيمة إلى جعل المؤشر أكثر سلاسة ، ولكن سيتم تفريغ البطارية بشكل أسرع</string>
+	<string name="freq_low">منخفض</string>
+	<string name="freq_normal">عادي</string>
+	<string name="freq_high">مرتفع</string>
+	<string name="preference_osd_slow_if_busy">بطيء إذا كان مشغولاً</string>
+	<string name="preference_osd_slow_if_busy_summary">قم بتقليل تردد OSD عند التقاط صورة أو تسجيل مقطع فيديو</string>
+
+	<string name="preference_screen_buttons">أزرار الجهاز</string>
+	<string name="preference_button_headset">زر سماعة الرأس</string>
+	<string name="preference_button_vol_up">درجة الصوت +</string>
+	<string name="preference_button_vol_down">درجة الصوت -</string>
+	<string name="preference_button_prev">المسار السابق</string>
+	<string name="preference_button_next">المسار التالي</string>
+	<string name="preference_button_play">تشغيل / إيقاف مؤقت</string>
+	<string name="preference_button_stop">إيقاف</string>
+	<string name="preference_button_camera">زر الكاميرا</string>
+	<string name="preference_button_focus">زر التركيز</string>
+	<string name="preference_button_zoom_in">تقريب +</string>
+	<string name="preference_button_zoom_out">تقريب -</string>
+	<string name="preference_button_search">بحث</string>
+	<string name="ba_shutter">إلتقاط</string>
+	<string name="ba_pause">إيقاف</string>
+	<string name="ba_zoom_plus">تقريب +</string>
+	<string name="ba_zoom_minus">تقريب -</string>
+	<string name="ba_autofocus">ضبط تلقائي للتركيز</string>
+	<string name="ba_focus_plus">تركيز +</string>
+	<string name="ba_focus_minus">تركيز -</string>
+	<string name="ba_exposure_plus">التعرض +</string>
+	<string name="ba_exposure_minus">التعرض -</string>
+
+
+	<string name="ba_white_balance_plus">توازن اللون الأبيض +</string>
+	<string name="ba_white_balance_minus">توازن اللون الأبيض -</string>
+	<string name="ba_capture_only">التقاط فقط</string>
+	<string name="ba_nothing">لا شيء</string>
+
+	<string name="preference_screen_camera_controls_more">المزيد من ضوابط الكاميرا</string>
+	<string name="preference_pause_preview">توقف بعد التقاط الصورة</string>
+	<string name="preference_pause_preview_summary">وقف الشاشة مؤقتًا بعد التقاط صورة ، مع خيار مشاركة الصورة أو حذفها</string>
+	<string name="preference_lock_orientation">اتجاة القفل</string>
+	<string name="no_lock">بدون قفل</string>
+	<string name="lock_landscape">قفل في الوضع الأفقي</string>
+	<string name="lock_reverse_landscape">قفل في وضع عكس المشهد</string>
+	<string name="lock_portrait">قفل في الوضع العمودي</string>
+	<string name="preference_lock_orientation_summary">%s\n\nفي حالة التعيين ، سيتم تجاهل اتجاه الجهاز ، وسيكون اتجاه الصورة / الفيديو مع مراعاة الاتجاه المحدد</string>
+	<string name="preference_show_when_locked">أظهر الكاميرا عند القفل</string>
+	<string name="preference_show_when_locked_summary">في حالة التمكين ، سيظل التطبيق يظهر فوق أي شاشة قفل (لا يزال يتعين عليك إلغاء القفل للوصول إلى الإعدادات والمعرض وما إلى ذلك)</string>
+	<string name="preference_save_zoom">حفظ التقريب</string>
+	<string name="preference_save_zoom_summary">تذكر قيمة التقريب</string>
+	<string name="preference_multitouch_zoom">تقريب اللمس المتعدد</string>
+	<string name="preference_multitouch_zoom_summary">يجب إعادة تشغيل التطبيق لتطبيق هذا الخيار</string>
+	<string name="preference_preview_tap">انقر معاينة</string>
+	<string name="preference_preview_tap_summary">%s\n\nالإجراء المتخذ عند لمس المعاينة</string>
+	<string name="focus_metering_areas">مناطق التركيز والقياس (افتراضي)</string>
+	<string name="focus_area">منطقة التركيز</string>
+	<string name="focus_area_metering_area">منطقة التركيز ثم منطقة القياس</string>
+<!-- Translate me
+	<string name="preference_orientation_sensor">Orientation sensor</string>
+	<string name="gravity_sensor">Gravity sensor</string>
+	<string name="accelerometer">Accelerometer</string>
+	<string name="preference_orientation_sensor_delay">Orientation sensor delay</string>
+	<string name="preference_geomagnetic_sensor_delay">Geomagnetic sensor delay</string>
+	<string name="sd_ui">Optimised for UI</string>
+	<string name="sd_games">Optimised for games</string>
+	<string name="sd_fastest">Fastest</string>
+-->
+	<string name="preference_focus_range">نطاق التركيز</string>
+	<string name="preference_focus_range_summary">حد نطاق الضبط البؤري اليدوي لتحكم أكثر دقة</string>
+	<string name="fr_landscape_macro">أفقي / دقيق</string>
+	<string name="fr_room">غرفة</string>
+	<string name="fr_group">صورة جماعية</string>
+	
+	<string name="preference_screen_calibration">المعايرة</string>
+	<string name="preference_level_angle_calibration">مستوي معايرة الزاوية</string>
+	<string name="preference_level_angle_calibration_summary">%s\n\nقيمة مستوي معايرة الزاوية</string>
+<!-- Translate me
+	<string name="preference_separate_level_calibration">Separate level calibration</string>
+	<string name="preference_separate_level_calibration_summary">Use a separate level calibration for each device position</string>
+	<string name="preference_level_angle_calibration_p">Level calibration in portrait mode</string>
+	<string name="preference_level_angle_calibration_rl">Level calibration in reverse landscape mode</string>
+	<string name="preference_level_angle_calibration_rp">Level calibration in reverse portrait mode</string>
+	<string name="preference_iso_min">Minimum ISO</string>
+	<string name="preference_iso_max">Maximum ISO</string>
+	<string name="preference_exposure_time_min">Minimum exposure time</string>
+	<string name="preference_exposure_time_max">Maximum exposure time</string>
+-->
+	<string name="preference_min_focus_distance">أدنى مسافة تركيز بؤري</string>
+	<string name="preference_focus_distance_calibration">معايرة مسافة التركيز</string>
+	<string name="preference_focus_distance_calibration_summary">%s\n\nالقيم الموجبة تقابل المسافات القصيرة والقيم السالبة للمسافات الطويلة.</string>
+	<string name="preference_white_balance_calibration">معايرة توازن اللون الأبيض</string>
+	<string name="preference_white_balance_calibration_summary">%s\n\nمعايرة النقطة المحايدة لتوازن اللون الأبيض اليدوي. يتم حفظ هذا الإعداد بشكل منفصل لكل كاميرا.</string>
+	<string name="preference_row_space_y">مساحة صف لوما</string>
+	<string name="preference_row_space_y_summary">%s\n\nمسافة بين الصفوف في قناة الإنارة. يستخدم عند تمكين خيار الإخراج غير المضغوط. يتم حفظ هذا الإعداد بشكل منفصل لكل كاميرا.</string>
+	<string name="preference_row_space_uv">مساحة صف كروما</string>
+	<string name="preference_row_space_uv_summary">%s\n\nمسافة بين الصفوف في قنوات اللون. يستخدم عند تمكين خيار الإخراج غير المضغوط. يتم حفظ هذا الإعداد بشكل منفصل لكل كاميرا.</string>
+
+	<string name="preference_screen_bug_fix">إصلاحات الشوائب</string>
+	<string name="preference_dont_rotate">عدم تدوير الصور</string>
+	<string name="preference_dont_rotate_summary">عدم تدوير الصور وفقًا لاتجاه الجهاز. بدلاً من ذلك ، احفظ الاستدارة في علامة EXIF. استخدم هذا الخيار لتسريع حفظ الصور عند استخدام خيار الإخراج غير المضغوط.</string>
+	<string name="preference_startup_focus">إجراء التركيز التلقائي عند بدء التشغيل</string>
+	<string name="preference_startup_focus_summary">لتحديد ما إذا كان سيتم التركيز التلقائي عند بدء تشغيل التطبيق. إذا كانت لديك مشكلة في تشغيل الفلاش عند البدء ، فقم بتعطيل هذا الخيار</string>
+	<string name="preference_force_face_focus">قوة التركيز على الوجه</string>
+	<string name="preference_force_face_focus_summary">فرض التركيز عند اكتشاف الوجه في وضع التركيز البؤري التلقائي. تدعم وجه واحد فقط.</string>
+	<string name="preference_center_focus">التركيز في الوسط</string>
+	<string name="preference_center_focus_summary">اضبط منطقة التركيز في وسط الإطار عند بدء التشغيل</string>
+	<string name="preference_update_focus_for_video">تحديث وضع التركيز</string>
+	<string name="preference_update_focus_for_video_summary">الحل البديل للخلل في Samsung Galaxy S5 مع UHD ، حيث إذا قام المستخدم بالتبديل إلى وضع تركيز آخر (فيديو غير مستمر) ، ثم ينتقل إلى الإعدادات ، ثم يعود ويسجل الفيديو ، وتتجمد المعاينة ويكون الفيديو تالفًا.</string>
+	<string name="preference_camera2_fake_flash">استخدم طريقة الفلاش البديلة</string>
+	<string name="preference_camera2_fake_flash_summary">%s\n\nقم بتمكين هذا إذا كان جهازك به سلوك فلاش بطي او ضعيف عند استخدام Camera2 API</string>
+	<string name="preference_use_1920x1088">استخدم دقة 1920x1088</string>
+	<string name="preference_use_1920x1088_summary">استخدم دقة فيديو 1920 × 1080 بدلاً من 1920 × 1080. يعمل هذا الخيار على إصلاح خطأ الشريط الأخضر في بعض أجهزة MediaTek</string>
+	<string name="preference_full_size_copy">نسخة بالحجم الكامل</string>
+	<string name="preference_full_size_copy_summary">قم بإنشاء نسخة كاملة الحجم مضغوطة من الصورة عند التقاط صورة غير مضغوطة. استخدم هذا الخيار إذا كان لديك مشاكل مع التقاط YUV.</string>
+	<string name="preference_reset_manual_mode">إعادة تعيين الوضع اليدوي</string>
+	<string name="preference_reset_manual_mode_summary">إعادة تعيين وضع ISO اليدوي عند الاتصال بالكاميرا. استخدم هذا الخيار إذا كان التركيز التلقائي يعمل بشكل غير صحيح بعد الاتصال بالكاميرا وكان وضع ISO يدويًا.</string>
+	<string name="preference_lock_preview_fps">قفل معاينة FPS</string>
+	<string name="preference_lock_preview_fps_summary">قفل معاينة FPS لمعدل إطارات الفيديو. استخدم هذا الخيار إذا كان التحكم في معدل إطارات الفيديو لا يعمل على جهازك.</string>
+	<string name="preference_preview_fps_override">تجاوز معاينة FPS</string>
+	<string name="preference_preview_fps_override_summary">تجاوز المعاينة الافتراضية FPS. استخدم هذا الخيار إذا كانت المعاينة غامقة للغاية في وضع الصور والفيديو.</string>
+	<string name="preference_preview_fps_min">اقل حد لمعاينة FPS</string>
+	<string name="preference_preview_fps_max">أقصى حد لمعاينة FPS</string>
+	<string name="preference_default_color_correction">تصحيح اللون الافتراضي</string>
+	<string name="preference_default_color_correction_summary">فرض ضبط تصحيح اللون الافتراضي. يعمل على إصلاح بعض المشكلات على أجهزة Sony.</string>
+	<string name="preference_force_iso_exposure">فرض معلمات الوضع اليدوي</string>
+	<string name="preference_force_iso_exposure_summary">في الوضع اليدوي ، اضبط ISO ووقت التعرض بعد كل إطار تم التقاطه. يساعد في إصلاح التغيير التلقائي لـ ISO ووقت التعرض في الوضع اليدوي على الأجهزة القائمة على معالج Qualcomm. قد يقلل من FPS للفيديو. يتم حفظ هذا الإعداد بشكل منفصل لأوضاع الصور والفيديو.</string>
+	<string name="preference_filtering_capture_only">تطبيق إعدادات الفلتره فقط عند الالتقاط</string>
+	<string name="preference_filtering_capture_only_summary">لا تقم بتعيين قيم الحد من التشويش والحافة للمعاينة ، قم بتغييرها فقط عند الالتقاط. استخدم هذا الخيار إذا توقفت المعاينة عن العمل عند تغيير قيم هذه المعلمات.</string>
+
+	<string name="preference_category_camera_quality">إعدادات الصور والفيديو</string>
+
+	<string name="preference_screen_photo_settings">إعدادات الصورة</string>
+	<string name="preference_quality">جودة الصورة</string>
+	<string name="preference_auto_level">مستوى تلقائي</string>
+	<string name="preference_auto_level_summary">سيتم تدوير الصور بحيث تصبح مستوية تلقائيًا (الصور فقط) (أبطأ في التقاط الصور ، وقد تفشل على الأجهزة ذات الذاكرة المنخفضة جدًا).</string>
+	<string name="preference_image_format">فورمة الصورة</string>
+
+	<string name="preference_flip_front_facing">قلب الصورة</string>
+	<string name="preference_flip_front_facing_summary">اقلب الصور أفقيًا في الكاميرا الأمامية</string>
+	<string name="preference_uncompressed_photo">إخراج غير مضغوط</string>
+	<string name="preference_uncompressed_photo_summary">استخدم إخراج YUV 420 بدلاً من JPEG المضغوط. يسرع الحفظ ويحسن جودة الصورة عند استخدام المعالجة اللاحقة للصور. يمكن أن تعمل بشكل غير صحيح على بعض الأجهزة.</string>
+	<string name="preference_yuv_conversion">تحويل YUV</string>
+	<string name="yuv_wide_range">مدى واسع</string>
+	<string name="yuv_saturated">مشبع</string>
+	<string name="preference_category_metadata">البيانات الوصفية</string>
+	<string name="preference_category_metadata_summary">البيانات الأولية المخزنة داخل ملف JPEG</string>
+<!-- Translate me
+	<string name="preference_category_exif">EXIF</string>
+	<string name="preference_save_exif">Save EXIF</string>
+	<string name="preference_save_exif_summary">Save inside a photo information about shooting parameters, GPS coordinates, etc.</string>
+-->
+	<string name="preference_metadata_author">المؤلف</string>
+	<string name="preference_metadata_comment">التعليق</string>
+	<string name="preference_metadata_comment_as_file">التعليق كملف</string>
+	<string name="preference_metadata_comment_as_file_summary">احفظ التعليق كملف نصي</string>
+	<string name="preference_metadata_position_info">وضع الجهاز</string>
+	<string name="preference_metadata_position_info_summary">أضف الي التعليق على معلومات حول وضع الجهاز</string>
+	<string name="preference_metadata_mode_info">معلومات الوضع</string>
+	<string name="preference_metadata_mode_info_summary">أضف الي التعليق على معلومات حول وضع الكاميرا</string>
+	<string name="preference_metadata_sensor_info">معلومات المستشعر</string>
+	<string name="preference_metadata_sensor_info_summary">أضف الي التعليق على معلومات حول إعدادات المستشعر</string>
+	<string name="preference_metadata_processing_info">معلومات المعالجة</string>
+	<string name="preference_metadata_processing_info_summary">أضف الي التعليق على معلومات حول معالجة الصور</string>
+	<string name="preference_category_expo_bracketing_summary">إعدادات التعرض بين قوسين. تنطبق معظم الخيارات الواردة في هذا القسم أيضًا على HDR.</string>
+	<string name="preference_expo_bracketing_stops">توقف تصحيح التعرض</string>
+	<string name="preference_expo_bracketing_stops_up">التوقف العلوي</string>
+	<string name="preference_expo_bracketing_stops_up_summary">%s\n\nحول كم عدد التوقفات المراد إضافتها للحصول على ألمع صورة</string>
+	<string name="preference_expo_bracketing_stops_down">التوقف السفلي</string>
+	<string name="preference_expo_bracketing_stops_down_summary">%s\n\nحول كم عدد التوقفات للتخلص من أحلك صورة</string>
+	<string name="preference_expo_bracketing_use_iso">استخدم ISO</string>
+	<string name="preference_expo_bracketing_use_iso_summary">إذا أمكن ، استخدم ضبط ISO لإنشاء صور أكثر قتامة</string>
+	<string name="preference_expo_bracketing_delay">التأخير</string>
+	<string name="preference_expo_bracketing_delay_summary">%s\n\nالتأخير بين الصور ضروري لتغيير تعويض التعريض الضوئي</string>
+	<string name="preference_hdr_save_expo">احفظ جميع الصور في وضع HDR</string>
+	<string name="preference_hdr_save_expo_summary">في حالة التمكين ، عند استخدام وضع صور HDR ، سيتم حفظ صور التعرض الأساسية الثلاث بالإضافة إلى صورة HDR النهائية. لاحظ أن هذا سيجعل الحفظ أبطأ ، خاصة إذا تم أيضًا استخدام خيارات مثل \"ختم الصور\" أو المستوى التلقائي.</string>
+	<string name="preference_hdr_deghost">الإزالة</string>
+	<string name="preference_hdr_tonemapping">نغمة رسم الخرائط</string>
+	<string name="preference_hdr_tonemapping_summary">%s\n\nخوارزمية لاستخدامها في تعيين نغمة خرائط HDR</string>
+	<string name="preference_align">المحاذاة</string>
+	<string name="preference_align_summary">%s\n\nقم بمحاذاة صور المصدر مع الصورة الأساسية</string>
+	<string name="only_align">محاذاة فقط</string>
+	<string name="align_and_crop">محاذاة و إقتصاص</string>
+	<string name="preference_hdr_unsharp_mask">قناع غير حاد</string>
+	<string name="preference_hdr_unsharp_mask_summary">%s\n\nمستوى مرشح القناع الغيرحاد أثناء معالجة HDR و DRO</string>
+	<string name="preference_hdr_unsharp_mask_radius">نصف القطر</string>
+	<string name="preference_hdr_unsharp_mask_radius_summary">%s\n\nطمس نصف قطر القناع الغير حاد</string>
+	<string name="preference_hdr_local_contrast">التباين المحلي</string>
+	<string name="preference_hdr_local_contrast_summary">%s\n\nمستوي تحسين التباين المحلي أثناء معالجة HDR و DRO</string>
+	<string name="preference_hdr_n_tiles">عدد البلاط</string>
+
+	<string name="preference_hdr_ignore_sf">تجاهل الفلتره الذكية</string>
+	<string name="preference_hdr_ignore_sf_summary">إذا تم تمكين التصفية الذكية ، فتجاهلها ، ولا تقم بتعطيل تقليل التشويش وتحسين الحافة عندما تكون الإضاءة جيدة في وضع صور HDR</string>
+	<string name="preference_category_fb_summary">إعدادات تصحيح التركيز</string>
+	<string name="preference_photos_count">عدد الصور</string>
+	<string name="preference_fb_focus_time">وقت التركيز</string>
+
+	<string name="preference_category_fast_burst_summary">إعدادات التتابع السريع</string>
+	<string name="preference_fast_burst_disable_filters">تعطيل عوامل التصفية</string>
+	<string name="preference_fast_burst_disable_filters_summary">قم بتعطيل تقليل التشويش وتحسين الحواف عند الإلتقاط المتتابع</string>
+	<string name="preference_category_nr_summary">إعدادات وضع تقليل الصورة الضوضائية</string>
+	<string name="preference_nr_slow_burst">تتابع بطيء </string>
+	<string name="preference_nr_slow_burst_summary">استخدم التتابع البطيء عند الالتقاط</string>
+	<string name="preference_nr_burst_delay">تأخير التتابع البطيء</string>
+
+	<string name="preference_save_base_image">حفظ الصورة الأساسية</string>
+	<string name="preference_save_base_image_summary">احفظ الصورة المتتابعة الأولى المستخدمة كقاعدة</string>
+	<string name="preference_adjust_levels">ضبط المستويات</string>
+	<string name="preference_adjust_levels_summary">%s\n\nضبط تلقائي للمستويات</string>
+	<string name="al_highlights">الإبراز</string>
+	<string name="al_highlights_and_shadows">الإبراز و الظلال</string>
+	<string name="al_boost">تعزيز</string>
+	<string name="preference_histogram_level">قص الرسم البياني</string>
+	<string name="preference_histogram_level_summary">%s\n\nقوة قطع الرسم البياني عند إجراء ضبط تلقائي للمستويات</string>
+	<string name="preference_category_stamp">ختم الصورة</string>
+	<string name="preference_category_stamp_summary">إضافة أختام للصور</string>
+	<string name="preference_stamp">ختم الصور</string>
+	<string name="preference_stamp_summary">ختم الصور بالتاريخ والوقت ؛ وكذلك معلومات GPS إذا تم تمكين بيانات الموقع / الاتجاه</string>
+	<string name="preference_stamp_location_x">الموقع الأفقي</string>
+	<string name="left">اليسار</string>
+	<string name="center">الوسط</string>
+	<string name="right">اليمين</string>
+	<string name="preference_stamp_location_y">الموقع العمودي</string>
+	<string name="top">الأعلي</string>
+	<string name="bottom">الأسفل</string>
+	<string name="preference_stamp_dateformat">تنسيق ختم التاريخ</string>
+<!-- Translate me
+	<string name="yyyy_mm_dd">yyyy/mm/dd</string>
+	<string name="dd_mm_yyyy">dd/mm/yyyy</string>
+	<string name="mm_dd_yyyy">mm/dd/yyyy</string>
+-->
+	<string name="preference_stamp_timeformat">تنسيق ختم الوقت</string>
+	<string name="tf_12_hour">12 ساعة</string>
+	<string name="tf_24_hour">24 ساعة</string>
+	<string name="preference_stamp_gpsformat">تنسيق ختم الموقع الجغرافي</string>
+	<string name="degrees_minutes_seconds">الدرجات / الدقائق / الثواني</string>
+	<string name="preference_stamp_store_address">العنوان المخزن</string>
+	<string name="preference_stamp_store_address_summary">إذا أمكن ، استخدم العنوان بدلاً من إحداثيات الموقع الجغرافي. يتطلب هذا الخيار اتصالاً بالإنترنت.</string>
+	<string name="preference_stamp_store_altitude">الإرتفاع المخزن</string>
+	<string name="preference_stamp_store_altitude_summary">إذا أمكن ، أضف ارتفاعًا بعد إحداثيات الموقع الجغرافي.</string>
+	<string name="preference_textstamp">نص مخصص</string>
+	<string name="preference_textstamp_summary">ختم الصور بنص مخصص</string>
+	<string name="preference_stamp_font_color">لون الخط</string>
+	<string name="preference_stamp_background">نص مع الخلفية</string>
+	<string name="preference_stamp_background_summary">ارسم نصًا مع الخلفية</string>
+	<string name="preference_camera2_fast_burst">تمكين التتابع السريع HDR / expo</string>
+	<string name="preference_camera2_fast_burst_summary">يسمح بالتقاط لقطات HDR / expo بشكل أسرع. قم بتعطيل هذا إذا واجه جهازك مشاكل عند التقاط الصور باستخدام أوضاع HDR أو صور Expo.</string>
+	<string name="preference_background_photo_saving">استخدم موضوع الخلفية</string>
+	<string name="preference_background_photo_saving_summary">ما إذا كان سيتم حفظ الصور في سلسلة رسائل في الخلفية (لعملية أسرع)</string>
+
+	<string name="preference_screen_video_settings">اعدادات الفيديو</string>
+	<string name="video_quality">دقة الفيديو</string>
+	<string name="preference_video_format">فورمة الفيديو</string>
+	<string name="preference_video_format_summary">%s\n\nتنسيق ملف الفيديو.</string>
+	<string name="preference_video_stabilization">تثبيت الفيديو</string>
+	<string name="preference_video_stabilization_summary">يقلل تثبيت الفيديو من الاهتزاز بسبب حركة الكاميرا في كل من المعاينة وفي تسجيل مقاطع الفيديو</string>
+	<string name="preference_video_bitrate">معدل بت الفيديو</string>
+	<string name="preference_video_bitrate_summary">%s\n\nتعيين معدل البت التقريبي لمقاطع الفيديو (الأعلى يعني جودة أفضل ، لكنه يشغل مساحة أكبر على القرص ؛ قد يتسبب في فشل تسجيل الفيديو إذا لم يتم دعم معدل البت)</string>
+	<string name="preference_video_fps">معدل إطار الفيديو</string>
+	<string name="preference_video_fps_summary">%s\n\nعيّن معدل الإطارات (FPS) لمقاطع الفيديو (قد يكون تقريبيًا ، وليس مضمونًا لتحقيقه ، وقد يتسبب في فشل تسجيل الفيديو إذا كان معدل الإطارات غير مدعوم)</string>
+	<string name="preference_video_max_duration">المدة القصوى للفيديو</string>
+	<string name="preference_video_max_duration_summary">%s\n\nسيتوقف تسجيل الفيديو بعد المدة المحددة</string>
+	<string name="preference_video_restart">أعد تشغيل الفيديو بعد المدة القصوى</string>
+	<string name="dont_restart">عدم إعادة التشغيل</string>
+	<string name="repeat_1_time">تكرار 1 مرة</string>
+	<string name="repeat_2_times">تكرار 2 مرة</string>
+	<string name="repeat_3_times">تكرار 3 مرات</string>
+	<string name="repeat_4_times">تكرار 4 مرات</string>
+	<string name="repeat_5_times">تكرار 5 مرات</string>
+	<string name="repeat_6_times">تكرار 6 مرات</string>
+	<string name="repeat_7_times">تكرار 7 مرات</string>
+	<string name="repeat_8_times">تكرار 8 مرات</string>
+	<string name="repeat_9_times">تكرار 9 مرات</string>
+	<string name="repeat_10_times">تكرار 10 مرات</string>
+	<string name="preference_video_restart_summary">%s\n\nإذا توقف الفيديو بعد بلوغ الحد الأقصى للمدة (إذا تم تعيينها) ، فسيقوم هذا الخيار بإعادة تشغيل الفيديو ، حسب عدد المرات المحدد</string>
+	<string name="preference_video_max_filesize">الحد الأقصى لحجم ملف الفيديو</string>
+	<string name="preference_video_max_filesize_summary">%s\n\nتسجيل الفيديو و / أو يُعاد تشغيله (انظر الخيار أدناه) عند الوصول إلى الحجم الأقصى (التقريبي) للملف. لاحظ أن جميع أجهزة الأندوريد تقريبًا لها حجم ملف أقصى لمقاطع الفيديو (عادةً حوالي 2 غيغابايت أو 4 غيغابايت) ، لكن هذا الخيار يسمح بتعيين قيمة محددة</string>
+	<string name="preference_video_restart_max_filesize">أعد التشغيل بأقصى حجم للملف</string>
+	<string name="preference_video_restart_max_filesize_summary">ما إذا كان سيتم إعادة التشغيل تلقائيًا عند الوصول إلى الحد الأقصى لحجم الملف (سواء كان حجم الملف الأقصى الافتراضي للجهاز أو ما قام بتحديدة المستخدم )</string>
+	<string name="preference_record_audio">تسجيل الصوت</string>
+	<string name="preference_record_audio_summary">تسجيل الصوت عند تسجيل الفيديو</string>
+	<string name="preference_record_audio_bitrate">معدل البت للصوت</string>
+	<string name="preference_record_audio_bitrate_summary">%s\n\nقم بتعيين معدل بت الصوت (يعني الأعلى جودة صوت أفضل ، ولكنه يشغل مساحة أكبر على القرص ؛ قد يتسبب في فشل تسجيل الفيديو إذا كان معدل البت غير مدعوم)</string>
+	<string name="preference_record_audio_sample_rate">معدل عينة الصوت</string>
+
+	<string name="preference_record_audio_src">مصدر الصوت</string>
+	<string name="as_camcorder">كاميرا الفيديو</string>
+	<string name="as_external_mic">ميكروفون خارجي (إن وجد)</string>
+	<string name="as_default_source">مصدر الصوت الافتراضي</string>
+	<string name="as_voice_optimized">التواصل الصوتي</string>
+	<string name="as_unprocessed">غير معالج</string>
+	<string name="preference_record_audio_channels">قنوات الصوت</string>
+	<string name="preference_record_audio_channels_summary">%s\n\nحدد أحادي أو ستريو لتسجيل الصوت (استريو مدعوم فقط في بعض الأجهزة)</string>
+	<string name="am_mono">أحادي</string>
+	<string name="am_stereo">ستيريو (مدعوم في بعض الأجهزة فقط)</string>
+	<string name="preference_lock_video">قفل الشاشة عند تسجيل الفيديو</string>
+	<string name="preference_lock_video_summary">عند تسجيل الفيديو ، سيتم قفل واجهة المستخدم الرسومية لمنع إيقاف التسجيل عن طريق الخطأ. اسحب الشاشة للفتح. لاحظ أن تسجيل الفيديو سيتوقف دائمًا إذا انتقل التطبيق إلى الخلفية أو كانت الشاشة فارغة.</string>
+	<string name="preference_video_subtitle">ترجمة الفيديو</string>
+	<string name="preference_video_subtitle_summary">%s\n\nإنشاء ملف ترجمات (SRT) لتخزين التاريخ والوقت ؛ وكذلك معلومات GPS إذا تم تمكين بيانات الموقع / الاتجاه</string>
+	<string name="no_subtitles">بدون ترجمات</string>
+	<string name="record_subtitles">تسجيل مع ترجمات</string>
+	<string name="preference_force_video_4k">فرض تسجيل فيديو 4K UHD (يعمل فقط على بعض الأجهزة)</string>
+	<string name="preference_force_video_4k_summary">قم بتمكين دقة 3840 × 2160 لتسجيل الفيديو على الكاميرا الخلفية - هذا الخيار هو اختراق قد يسمح لأجهزة 4K على كاميرات 4K التي لا تعرض الخيار لتطبيقات الكاميرا التابعة لجهات خارجية. هذا غير مضمون للعمل ، يرجى الاختبار قبل العمل.</string>
+	<string name="preference_video_low_power_check">فحص وضع البطارية الحرج</string>
+	<string name="preference_video_low_power_check_summary">أوقف تسجيل الفيديو إذا كان مستوى البطارية منخفضًا للغاية. يساعد ذلك في تقليل مخاطر تلف مقاطع الفيديو إذا تم إيقاف تشغيل جهازك فجأة بسبب نفاد الطاقة.</string>
+	<string name="preference_video_flash">تشغيل فلاش أثناء تسجيل الفيديو</string>
+	<string name="preference_video_flash_summary">في حالة التمكين ، سيتم تشغيل / إيقاف الفلاش عند تسجيل الفيديو (يمكن استخدامه لإخبار الكاميرا بأن الكاميرا لا تزال تسجل عن بعد)</string>
+
+	<string name="preference_screen_filtering">الفلتره</string>
+	<string name="preference_antibanding">ضد المنع</string>
+	<string name="preference_antibanding_summary">%s\n\nتعويض الوميض بمعدل تردد مصدر الطاقة</string>
+	<string name="preference_noise_reduction">تقليل الضوضاء</string>
+
+	<string name="preference_edge">تعزيز الحافة</string>
+
+	<string name="preference_smart_filter">فلتره ذكية</string>
+	<string name="preference_smart_filter_summary">%s\n\nتعطيل تقليل التشويش وتحسين الحافة عندما تكون الإضاءة جيدة. سيتم تعطيل المرشحات إذا كانت قيمة ISO الحالية أقل من القيمة المحددة أو مساوية لها.</string>
+	<string name="preference_optical_stabilization">التثبيت البصري</string>
+
+	<string name="nr_fast">سريع</string>
+	<string name="nr_high_quality">جودة عالية</string>
+	<string name="nr_minimal">الحد الأدنى</string>
+	<string name="nr_zero_shutter_lag">تأخير الإلتقاط صفر</string>
+	<string name="preference_zero_shutter_delay">تأخير المصراع صفر</string>
+
+	<string name="preference_hot_pixel_correction">تصحيح البكسل الساخن</string>
+
+
+	<string name="preference_screen_files">الملفات</string>
+	<string name="preference_save_location">موقع الحفظ</string>
+	<string name="preference_save_location_summary">مجلد لحفظ ملفات الصور بتنسيق</string>
+	<string name="preference_save_video_location">حفظ موقع الفيديو</string>
+	<string name="preference_save_video_location_summary">%s\n\nمجلد لحفظ ملفات الفيديو بتنسيق</string>
+	<string name="vf_same_as_photo">نفس الصورة</string>
+	<string name="vf_folder">إختيار مجلد...</string>
+	<string name="preference_using_saf">إستخدام إذن الوصول إلى التخزين</string>
+	<string name="preference_using_saf_summary">ما إذا كنت تريد استخدام إذن الوصول إلى التخزين في اندوريد 5 لحفظ الصور ومقاطع الفيديو</string>
+	<string name="preference_save_photo_prefix">بادئة حفظ الصورة</string>
+	<string name="preference_save_photo_prefix_summary">البادئة المراد استخدامها لحفظ أسماء الملفات للصور</string>
+	<string name="preference_save_video_prefix">بادئة حفظ الفيديو</string>
+	<string name="preference_save_video_prefix_summary">البادئة المراد استخدامها لحفظ أسماء الملفات لمقاطع الفيديو</string>
+	<string name="preference_save_zulu_time">تنسيق الوقت لاسم الملف</string>
+	<string name="preference_save_zulu_time_summary">%s\n\nإذا كنت تريد استخدام التوقيت المحلي أو التوقيت العالمي بتنسيق (UTC) لتسمية الصور ومقاطع الفيديو</string>
+	<string name="t_local_time">الوقت المحلي</string>
+<!-- Translate me
+	<string name="t_utc_zulu">UTC (Zulu)</string>
+-->
+	<string name="preference_screen_location_settings">إعدادات الموقع الجغرافي</string>
+	<string name="preference_location">تخزين بيانات الموقع (تحديد الموقع الجغرافي)</string>
+	<string name="preference_location_summary">تخزين بيانات الموقع الحغرافي في الصور / مقاطع الفيديو</string>
+	<string name="preference_gps_direction">تخزين اتجاه البوصلة</string>
+	<string name="preference_gps_direction_summary">قم بتخزين اتجاه بوصلة الموقع الجغرافي في الصور</string>
+	<string name="preference_require_location">طلب بيانات الموقع</string>
+	<string name="preference_require_location_summary">إذا تم تمكين بيانات الموقع ، فالتقط صورة / فيديو فقط إذا كانت بيانات الموقع متاحة</string>
+
+	<string name="preference_category_online">متفرقات</string>
+	<string name="preference_online_help">مساعدة على الانترنت</string>
+	<string name="preference_online_help_summary">فتح موقع البرنامج في متصفحك</string>
+	<string name="preference_use_camera2">استخدم Camera2 API</string>
+	<string name="preference_use_camera2_summary">يمكّن لتطبيق Camera2 API الخاص بنظام اندوريد 5 - توفير ميزات إضافية ، ولكن قد لا يعمل بشكل صحيح على جميع الأجهزة (سيؤدي إلى إعادة التشغيل)</string>
+
+	<string name="preference_donate">تبرع لدعم المطور</string>
+	<string name="preference_donate_summary">إذا أعجبك هذا التطبيق ، فالرجاء التفكير في التبرع لدعم تنمية اليرنامج. شكر!</string>	
+	<string name="donate">تبرع</string>
+	<string name="wallet_was_copied">تم نسخ رقم المحفظة إلى الحافظة</string>
+	<string name="thank_you">شكرا لك !</string>
+	<string name="thank_you_summary">شكرا لك على التبرع !</string>
+
+	<string name="preference_about">حول</string>
+	<string name="preference_about_translation">ترجمة</string>
+	<string name="preference_info">معلومات التطبيق وتصحيح الأخطاء</string>
+	<string name="about_copy_to_clipboard">نسخ إلى الحافظة</string>
+	
+	<string name="preference_screen_preferences_control">التحكم في التفضيلات</string>
+	<string name="preference_category_backup_restore">النسخ الاحتياطي و الإستعادة</string>
+	<string name="preference_backup">نسخ إحتياطي</string>
+	<string name="preference_backup_summary">نسخ كل الإعدادات احتياطيًا إلى ملف. سيتم حفظ النسخة الاحتياطية في مجلد الصور / الفيديو.</string>
+	<string name="preference_restore">استعادة</string>
+	<string name="preference_restore_summary">استعادة الإعدادات من النسخة الاحتياطية.</string>
+	<string name="preference_reset">اعادة الضبط</string>
+	<string name="preference_reset_all">جميع الإعدادات</string>
+	<string name="preference_reset_summary">إعادة تعيين جميع الإعدادات إلى الوضع الافتراضي</string>
+	<string name="preference_category_export_import">النسخ الإحتياطي و الاستعادة</string>
+	<string name="preference_export">نسخ إحتياطي</string>
+	<string name="preference_export_summary">نسخ بعض الإعدادات إلى ملف. سيتم حفظ الملف في مجلد الصور / الفيديو.</string>
+	<string name="preference_import">استعادة</string>
+	<string name="preference_import_summary">استعادة الإعدادات من الملف الاحتياطي.</string>
+	<string name="preference_category_modes">الأوضاع</string>
+	<string name="preference_category_modes_summary">أوضاع الالتقاط (وضع الفلاش ، ISO ، المشهد ، إلخ) لجميع الكاميرات.</string>
+	<string name="preference_iso_values_fixed">قيم ISO ثابتة</string>
+	<string name="preference_iso_values_max">أقصى قيم ISO</string>
+	<string name="preference_category_model">طراز الجهاز</string>
+	<string name="preference_category_model_summary">إصلاحات الأخطاء وبعض عمليات المعايرة والإعدادات الأخرى الخاصة بطراز الجهاز هذا.</string>
+	<string name="preference_category_device">الجهاز</string>
+	<string name="preference_category_device_summary">إصلاحات الأخطاء وجميع عمليات المعايرة والإعدادات الأخرى الخاصة بهذا الجهاز. يتضمن نفس الإعدادات كما في الخيار السابق والمعايرات لكل جهاز.</string>
+
+	<string name="preference_advanced">المتقدمة</string>
+
+	<string name="time_1_second">1 ثانية</string>
+	<string name="time_2_seconds">2 ثانية</string>
+	<string name="time_3_seconds">3 ثواني</string>
+	<string name="time_5_seconds">5 ثواني</string>
+	<string name="time_10_seconds">10 ثواني</string>
+	<string name="time_15_seconds">15 ثانية</string>
+	<string name="time_20_seconds">20 ثانية</string>
+	<string name="time_30_seconds">30 ثانية</string>
+	<string name="time_1_minute">1 دقيقة</string>
+	<string name="time_2_minutes">2 دقيقة</string>
+	<string name="time_3_minutes">3 دقائق</string>
+	<string name="time_5_minutes">5 دقائق</string>
+	<string name="time_7_minutes">7 دقائق</string>
+	<string name="time_10_minutes">10 دقائق</string>
+	<string name="time_12_minutes">12 دقيقة</string>
+	<string name="time_15_minutes">15 دقيقة</string>
+	<string name="time_20_minutes">20 دقيقة</string>
+	<string name="time_25_minutes">25 دقيقة</string>
+	<string name="time_30_minutes">30 دقيقة</string>
+	<string name="time_45_minutes">45 دقيقة</string>
+	<string name="time_1_hour">1 ساعة</string>
+	<string name="time_2_hours">2 ساعة</string>
+	
+	<string name="notification_image_processing">الوقت المتبقي لمعالجة الصور : %d</string>
+</resources>
